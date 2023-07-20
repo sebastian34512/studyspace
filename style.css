@@ -1,0 +1,92 @@
+body {
+    font-family: "Arial";
+    background-color: #80ADA0;
+}
+
+#indexbody {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#anlegen {
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 20em;
+    background-color: #F8F1FF;
+    padding: 1em;
+}
+
+.datadiv {
+    margin: 1em;
+    padding: 0.5em;
+    background-color: #F8F1FF;
+    width: 95%;
+
+}
+
+.container {
+
+    margin: auto;
+    box-shadow: 5px 10px;
+    padding: 3em;
+    background-color: #8AEA92;
+
+
+
+}
+
+h1 {
+    color: #000000;
+}
+
+.nachrichtdiv {
+    border-top-style: solid;
+    margin-top: 1em;
+    background-color: #F8F1FF;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: 50em;
+    margin-bottom: 2em;
+}
+
+
+.buttondiv {
+    text-align: center;
+
+}
+
+
+input[type="submit"] {
+    margin: auto;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #233D4D;
+    color: white;
+    box-shadow: 2px 4px black;
+    border: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #EFD9CE;
+    color: black;
+}
+
+.hinweis {
+    font-size: 0.8em;
+}
+
+#register {
+    width: 70%;
+    text-align: left;
+}
+
+.registertd {
+    text-align: left;
+}
